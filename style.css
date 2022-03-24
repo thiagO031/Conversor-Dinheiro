@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&family=Tinos&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -37,16 +39,22 @@ main img{
 
 .conteudo-1{
     padding-top: 20px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-family: 'Abril Fatface', cursive; 
+    letter-spacing: 1.5px;
 }
 
 .conteudo-2{
     padding-top: 25px;
+    font-family: 'Libre Baskerville', serif;
+    /* font-family: 'Tinos', serif; */
 }
 
 #btn-number{
     height: 25px;
+    width: 172px;
     border: 1px solid black;
+    padding-left: 5px;
 }
 
 #btn{
@@ -62,10 +70,12 @@ main img{
 #res{
     background-color: #ffbe00;
     color: #25182E;
-    font-size: x-large;
+    font-size: larger;
+    font-weight: 500;
     border-radius: 5px;
     /* border: 1px solid black; */
     box-shadow: 0 0 0.3em black;
+    border: 1px solid #25182E;
 
     width: 175px;
     height: 135px;
