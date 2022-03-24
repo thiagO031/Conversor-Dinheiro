@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #25182E;
+}
 
 main{
 
@@ -14,12 +18,15 @@ main{
 
     text-align: center;
 
-    background-color: black;
+    background-color: #CA1F30;
     color: white;
+    border-radius: 13px;
+    /* border: 1px solid #FFBE00; */
+    box-shadow: 0 0 1em 5px rgb(15, 15, 15) ;
 
     position: relative;
-    width: 350px;
-    height: 300px;
+    width: 230px;
+    height: 390px;
 }
 
 main img{
@@ -30,20 +37,38 @@ main img{
 
 .conteudo-1{
     padding-top: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
 }
 
 .conteudo-2{
-    padding-top: 35px;
+    padding-top: 25px;
 }
 
 #btn-number{
     height: 25px;
+    border: 1px solid black;
 }
 
 #btn{
-    width: 175px;
+    width: 172px;
     height: 23px;
-    border-radius: 8px;
+    margin-top: 8px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+#res{
+    background-color: #ffbe00;
+    color: #25182E;
+    font-size: x-large;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 0.3em black;
 
+    width: 175px;
+    height: 135px;
+    padding-top: 23px;
+    position: absolute;
+}
