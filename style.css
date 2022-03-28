@@ -9,7 +9,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: #25182E;
+    background-color: #064faf;
 }
 
 main{
@@ -20,7 +20,7 @@ main{
 
     text-align: center;
 
-    background-color: #CA1F30;
+    background-color: #178617;
     color: white;
     border-radius: 13px;
     /* border: 1px solid #FFBE00; */
@@ -69,16 +69,23 @@ main img{
 
 #res{
     background-color: #ffbe00;
-    color: #25182E;
+    color: white;
     font-size: larger;
     font-weight: 500;
     border-radius: 5px;
     /* border: 1px solid black; */
     box-shadow: 0 0 0.3em black;
-    border: 1px solid #25182E;
+    border: 1px solid #064faf;
+    /* color: #005db9; */
 
     width: 175px;
     height: 135px;
     padding-top: 23px;
     position: absolute;
+
+
+    /* color: #4ca94c; verde*/
+    /* color: #f2dd54; amar*/
+    /* color: #1865ca; azul */
 }
+
