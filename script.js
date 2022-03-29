@@ -8,11 +8,12 @@ function converter(){
     let r = document.getElementById('res')
 
     // CRIANDO VARIAVEL CONV COM O B_NUMBER E O VALOR ATUAL DO DOLAR
-    let conv = Number(b_number * 4.76)
+    let conv = Number(b_number * 4.76).toFixed(2)
     
     // SE O VALOR FOR 0 OU MENOR QUE O
     if(b_number == 0 || b_number < 0){
-        alert('Digite um valor para a conversão!')
+        alert('Digite um valor valido para a conversão!'),
+        r.innerHTML = ''
     }
 
     //CONTEUDO NO r (res) 
