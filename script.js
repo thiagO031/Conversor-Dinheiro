@@ -1,7 +1,7 @@
 function converter(){
     // ID´S LINKADOS PARA O STYLE
-   let corp = document.getElementById('corpo')
-   let m = document.getElementById('principal')
+   let corp = document.getElementsByTagName('body')
+   let m = document.getElementsByTagName('main')
 
     // ID´S LINKADOS PARA CONVERSÃO
     let b_number = Number(document.getElementById('btn-number').value);
@@ -12,8 +12,7 @@ function converter(){
     
     // SE O VALOR FOR 0 OU MENOR QUE O
     if(b_number == 0 || b_number < 0){
-        alert('Digite um valor valido para a conversão!'),
-        r.innerHTML = ''
+        alert('Digite um valor valido para a conversão!');
     }
 
     //CONTEUDO NO r (res) 
