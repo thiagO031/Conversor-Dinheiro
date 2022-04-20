@@ -1,7 +1,7 @@
 function converter(){
     // ID´S LINKADOS PARA O STYLE
-   let corp = document.getElementsByTagName('body')
-   let m = document.getElementsByTagName('main')
+   let corp = document.getElementById('body')
+   let m = document.getElementById('main')
 
     // ID´S LINKADOS PARA CONVERSÃO
     let b_number = Number(document.getElementById('btn-number').value);
@@ -11,12 +11,13 @@ function converter(){
     let conv = Number(b_number * 4.76).toFixed(2)
     
     // SE O VALOR FOR 0 OU MENOR QUE O
-    if(b_number == 0 || b_number < 0){
+    if(b_number <= 0){
         alert('Digite um valor valido para a conversão!');
+        return conv = ''
     }
 
     //CONTEUDO NO r (res) 
-    r.innerHTML = "O valor convertido é: " + "US$" + conv
+    r.innerHTML = "Valor convertido: " + "US$" + conv
     // let desc = "O valor convertido é: " + "US$" + conv
     
 
